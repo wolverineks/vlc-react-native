@@ -2,6 +2,7 @@
   "name": "vlc-react-native",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "contributors": [
     "Kevin Sullivan <wolverine.ks@gmail.com>"
   ],

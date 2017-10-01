@@ -27,6 +27,11 @@
           "attributes": {"allowMultiline": false},
           "children": true
         }],
+        "react/jsx-space-before-closing": ["error", "always"],
+        "react/jsx-tag-spacing": ["error"],
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-closing-tag-location": ["error"],
+        "react/jsx-closing-bracket-location": ["error", "after-props"],
         "react/jsx-no-duplicate-props": ["error", { "ignoreCase": true }],
         "react/jsx-indent-props": ["error", 2],
         "react/self-closing-comp": ["error", {"component": true}],
