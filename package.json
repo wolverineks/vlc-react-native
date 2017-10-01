@@ -17,13 +17,15 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js",
-    "watch": "yarn test -- --watch",
-    "jest:cover": "jest --coverage",
+    "jest": "node node_modules/jest/bin/jest.js",
+    "jest:watch": "yarn jest -- --watch",
+    "jest:cover": "yarn jest -- --coverage",
     "lint": "eslint **/*.js",
     "lint:fix": "yarn lint --fix",
     "flow": "flow",
-    "precommit": "yarn lint:fix && yarn flow && yarn test"
+    "watch": "yarn lint:fix && yarn flow && yarn jest:watch",
+    "test": "yarn lint:fix && yarn flow && yarn jest",
+    "precommit": "yarn test"
   },
   "jest": {
     "preset": "jest-expo"
