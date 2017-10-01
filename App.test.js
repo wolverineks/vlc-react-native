@@ -1,3 +1,5 @@
+// @flow
+/* globals it expect */
 import React from 'react'
 import App from './App'
 
